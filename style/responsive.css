@@ -1,0 +1,40 @@
+@media screen and (max-width: 700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .menu {
+        margin-top: 15px;
+    }
+
+    .button {
+        margin-top: 5px;
+        width: 300px;
+    }    
+}
+
+@media screen and (min-width: 360px) {
+    .carousel-movies {
+        margin-top: 5px;
+    }
+
+    .buttons {
+        margin-bottom: 20px;
+    }
+}
+
+@media sreen and (min-width: 1000px) {
+    .synopsis {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    h4 {
+        margin-top: 5px;
+    }
+}
+
+
+
